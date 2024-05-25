@@ -935,10 +935,24 @@ section {
   padding-left: 30px;
 }
 
+.testimonials .testimonial-item .testimonial-container {
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials .testimonial-item .testimonial-container > div {
+  width: 100%;
+  height: 100%;
+}
+
 .testimonials .testimonial-item .testimonial-img {
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .testimonials .testimonial-item h3 {
